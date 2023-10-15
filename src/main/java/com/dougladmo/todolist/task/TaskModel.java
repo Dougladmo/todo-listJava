@@ -30,7 +30,7 @@ public class TaskModel {
     private String username;
     private String description;
 
-    @Column(length = 50)
+    @Column(length = 100)
     private String title;
     private LocalDateTime startAt;
     private LocalDateTime endAt;
